@@ -334,7 +334,7 @@ for (x in 1:length(linkedin)) {
 
 ```
 
-## Loop over a list
+## [Loop over a list](https://campus.datacamp.com/courses/intermediate-r/chapter-2-loops?ex=8)
 
 ## Loop over a matrix
 
