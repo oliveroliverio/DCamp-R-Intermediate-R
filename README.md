@@ -124,16 +124,101 @@ sum(extremes)
 ```
 
 ## Conditional Statements
+![](img/2021-11-25-20-16-52.png)
+![](img/2021-11-25-20-17-05.png)
+![](img/2021-11-25-20-17-34.png)
+![](img/2021-11-25-20-17-57.png)
+![](img/2021-11-25-20-18-11.png)
+![](img/2021-11-25-20-18-24.png)
+
 
 ## The if statement
+```R
+# Variables related to your last day of recordings
+medium <- "LinkedIn"
+num_views <- 14
+
+# Examine the if statement for medium
+if (medium == "LinkedIn") {
+  print("Showing LinkedIn information")
+}
+
+# Write the if statement for num_views
+if (num_views > 15) {
+  print("You are popular!")
+}
+```
 
 ## Add an else
+```R
+
+# Variables related to your last day of recordings
+medium <- "LinkedIn"
+num_views <- 14
+
+# Control structure for medium
+if (medium == "LinkedIn") {
+  print("Showing LinkedIn information")
+} else {
+  print("Unknown medium")
+}
+
+
+# Control structure for num_views
+if (num_views > 15) {
+  print("You're popular!")
+} else {
+  print("Try to be more visible!")
+}
+```
 
 ## Customize further: else if
+```R
+# Variables related to your last day of recordings
+medium <- "LinkedIn"
+num_views <- 14
+
+# Control structure for medium
+if (medium == "LinkedIn") {
+  print("Showing LinkedIn information")
+} else if (medium == "Facebook") {
+  # Add code to print correct string when condition is TRUE
+  print("Showing Facebook information")
+} else {
+  print("Unknown medium")
+}
+
+# Control structure for num_views
+if (num_views > 15) {
+  print("You're popular!")
+} else if (num_views <= 15 & num_views > 10) {
+  # Add code to print correct string when condition is TRUE
+  print("Your number of views is average")
+} else {
+  print("Try to be more visible!")
+}
+```
 
 ## Else if 2.0
 
 ## Take control!
+```R
+# Variables related to your last day of recordings
+li <- 15
+fb <- 9
+
+# Code the control-flow construct
+if (li >= 15 & fb >= 15) {
+  sms <- 2 * (li + fb)
+} else if (li < 10 & fb < 10) {
+  sms <- 0.5 * (li + fb)
+} else {
+  sms <- li + fb
+}
+
+# Print the resulting sms to the console
+sms
+```
 
 
 # 2 Loops
@@ -142,6 +227,10 @@ sum(extremes)
 ## Loops can come in handy on numerous occasions. While loops are like repeated if statements, the for loop is designed to iterate over all elements in a sequence. Learn about them in this chapter.
 
 ## While loop
+![](img/2021-11-25-20-22-56.png)
+![](img/2021-11-25-20-23-48.png)
+![](img/2021-11-25-20-24-14.png)
+![](img/2021-11-25-20-24-30.png)
 
 ## Write a while loop
 
