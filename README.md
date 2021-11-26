@@ -233,16 +233,106 @@ sms
 ![](img/2021-11-25-20-24-30.png)
 
 ## Write a while loop
+```R
+# Initialize the speed variable
+speed <- 64
+
+# Code the while loop
+while (speed > 30) {
+  print("Slow down!")
+  speed <- speed -7
+}
+
+# Print out the speed variable
+speed
+```
 
 ## Throw in more conditionals
+```R
+
+# Initialize the speed variable
+speed <- 64
+
+# Extend/adapt the while loop
+while (speed > 0) {
+  print(paste("Your speed is",speed))
+  if (speed > 48 ) {
+    print("Slow down big time!")
+    speed = speed - 11
+  } else {
+    print ("Slow down!")
+    speed = speed - 6
+  }
+```
 
 ## Stop the while loop: break
+```R
+# Initialize the speed variable
+speed <- 88
+
+while (speed > 30) {
+  print(paste("Your speed is", speed))
+
+  # Break the while loop when speed exceeds 80
+  if (speed>80) {
+    break
+  }
+
+  if (speed > 48) {
+    print("Slow down big time!")
+    speed <- speed - 11
+  } else {
+    print("Slow down!")
+    speed <- speed - 6
+  }
+}
+```
 
 ## Build a while loop from scratch
+```R
+
+# Initialize i as 1
+i <- 1
+
+# Code the while loop
+while (i <= 10) {
+  print(i*3)
+  if ((i*3%%8==0)) {
+    break
+  }
+  i <- i + 1
+}
+```
 
 ## For loop
+![](img/2021-11-25-20-28-15.png)
+![](img/2021-11-25-20-28-47.png)
+![](img/2021-11-25-20-29-02.png)
+![](img/2021-11-25-20-29-28.png)
+![](img/2021-11-25-20-29-42.png)
+![](img/2021-11-25-20-30-03.png)
+![](img/2021-11-25-20-30-17.png)
+![](img/2021-11-25-20-30-29.png)
+![](img/2021-11-25-20-30-41.png)
 
 ## Loop over a vector
+```R
+# The linkedin vector has already been defined for you
+linkedin <- c(16, 9, 13, 5, 2, 17, 14)
+
+# Loop version 1
+for (i in linkedin) {
+  print(i)
+}
+
+
+
+# Loop version 2
+for (x in 1:length(linkedin)) {
+  print(linkedin[x])
+}
+
+```
 
 ## Loop over a list
 
