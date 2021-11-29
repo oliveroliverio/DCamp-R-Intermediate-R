@@ -66,17 +66,7 @@ views <=14
 ```
 
 ## Logical Operators
-![](img/2021-11-25-20-11-08.png)
-![](img/2021-11-25-20-11-18.png)
-![](img/2021-11-25-20-11-29.png)
-![](img/2021-11-25-20-11-43.png)
-![](img/2021-11-25-20-11-59.png)
-![](img/2021-11-25-20-12-27.png)
-![](img/2021-11-25-20-12-44.png)
-![](img/2021-11-25-20-12-55.png)
-![](img/2021-11-25-20-13-05.png)
-![](img/2021-11-25-20-13-17.png)
-![](img/2021-11-25-20-13-34.png)
+
 
 
 ## & and |
@@ -124,13 +114,6 @@ sum(extremes)
 ```
 
 ## Conditional Statements
-![](img/2021-11-25-20-16-52.png)
-![](img/2021-11-25-20-17-05.png)
-![](img/2021-11-25-20-17-34.png)
-![](img/2021-11-25-20-17-57.png)
-![](img/2021-11-25-20-18-11.png)
-![](img/2021-11-25-20-18-24.png)
-
 
 ## The if statement
 ```R
@@ -227,10 +210,7 @@ sms
 ## Loops can come in handy on numerous occasions. While loops are like repeated if statements, the for loop is designed to iterate over all elements in a sequence. Learn about them in this chapter.
 
 ## While loop
-![](img/2021-11-25-20-22-56.png)
-![](img/2021-11-25-20-23-48.png)
-![](img/2021-11-25-20-24-14.png)
-![](img/2021-11-25-20-24-30.png)
+
 
 ## Write a while loop
 ```R
